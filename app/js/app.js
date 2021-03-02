@@ -67,7 +67,7 @@
     /*-------------------------------------
     Mobile Main Menu Show
     --------------------------------------*/
-    $('header').on('click', '.mobile-menu-icon', function(e) {
+    $('header').on('click', '.mobile-menu-toggler', function(e) {
         e.preventDefault();
 
         var $this = $(this),
@@ -75,8 +75,10 @@
 
         if (!targetField.hasClass('open')) {
             targetField.addClass('open');
+            $this.addClass('open');
         } else {
             targetField.removeClass('open');
+            $this.removeClass('open');
         }
 
     });

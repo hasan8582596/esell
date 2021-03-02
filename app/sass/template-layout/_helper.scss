@@ -9,17 +9,48 @@ section.section {
 		align-items: flex-end;
 		justify-content: space-between;
 		margin-bottom: 60px;
-		@media only screen and (max-width: 479px) {
+		@media only screen and (max-width: 575px) {
 			display: block;	
+			text-align: center;
 		}
 		.heading-subtitle {
 			margin-bottom: 10px;
+			font-family: $font_extra;
+			font-size: 40px;
+			color: #E76458;
+			line-height: 1;
+			@media only screen and (max-width: 1199px) {
+				font-size: 38px;	
+			}
+			@media only screen and (max-width: 991px) {
+				font-size: 34px;	
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 30px;	
+			}
+			@media only screen and (max-width: 575px) {
+				font-size: 28px;	
+			}
 		}
 		.heading-title {
 			margin-bottom: 0;
+			font-weight: 700;
+			font-size: 48px;
+			@media only screen and (max-width: 1199px) {
+				font-size: 44px;	
+			}
+			@media only screen and (max-width: 991px) {
+				font-size: 40px;	
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 36px;	
+			}
+			@media only screen and (max-width: 575px) {
+				font-size: 30px;	
+			}
 		}
 		.heading-right {
-			@media only screen and (max-width: 479px) {
+			@media only screen and (max-width: 575px) {
 				margin-top: 20px;	
 			}
 		}
