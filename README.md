@@ -1,10 +1,15 @@
 What i use:
 
 ● HTML5
+</br>
 ● SCSS/SASS
+</br>
 ● jQuery
+</br>
 ● Gulp
-● used flex-box.
+</br>
+● Used flex-box.
+</br>
 ● Slick
 
 Demo Link:
