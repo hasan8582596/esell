@@ -1,0 +1,47 @@
+/*------------------- 2.1 Slick -------------------*/
+.slick-slider {
+	position: relative;
+}
+.slick-list {
+	overflow: hidden;
+	margin: 0 -30px;
+}
+.slick-track {
+	display: flex;
+}
+.slick-slide {
+	flex: 1;
+	padding: 0 30px;
+	&:focus {
+		outline: none;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+.slick-custom-nav {
+	.slick-arrow {
+		height: 48px;
+		width: 48px;
+		line-height: 52px;
+		border-radius: 50%;
+		background-color: #F6F7FB;
+		margin-right: 10px;
+		transition: all 0.3s ease-in-out;
+		&:last-child {
+			margin-right: 0;
+		}
+		&:hover {
+			background-color: $color_light;
+			box-shadow: 8px 18px 48px 0 rgba(153,161,170, 0.5); 
+			.slick-nav-icon {
+				fill: $color_primary;
+			}
+		}
+	}
+	.slick-nav-icon {
+		fill: $color_black;
+		transition: all 0.3s ease-in-out;
+	}
+}

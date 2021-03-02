@@ -1,0 +1,48 @@
+/*---------------------------------------------
+Template Name: Esell
+Template URL: 
+Description: 
+Author: 
+Author URL: 
+Version: 1.0.0
+
+===================   
+CSS INDEX
+===================
+1. Typography
+2. Vendor Custom Style
+    2.1 Slick
+3. Template Layout Style
+	3.1 Global
+	3.2 Grid
+	3.3 Header Menu
+	3.4 Helper
+4. Template Page Style
+	4.1 Banner
+	4.2 Product
+	
+--------------------------------------------*/
+@import "generate/_variables.scss";
+/*=======================================================================
+1. Typography 
+=========================================================================*/
+@import "template-layout/_typography.scss";
+/*=======================================================================
+2. Vendor Custom Style
+=========================================================================*/
+@import "vendor-custom/_slick.scss";
+/*=======================================================================
+3. Template Layout Style
+=========================================================================*/
+@import "template-layout/_global.scss";
+@import "template-layout/_grid.scss";
+@import "template-layout/_header_menu.scss";
+@import "template-layout/_helper.scss";
+/*=======================================================================
+4. Template Page Style
+=========================================================================*/
+@import "template-section/_banner.scss";
+@import "template-section/_product.scss";
+
+
+

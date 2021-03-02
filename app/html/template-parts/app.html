@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+<!-- Meta Data -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% block title %}{% endblock %}</title>
+<meta name="description" content="Esell is a best ecommerce site of our the country">
+<meta name="Keywords" content="ecommerce, men, women, offer">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="media/favicon.png">
+{% block header %}{% endblock %}
+<!-- Site Stylesheet -->
+<link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+
+<body {% block attribute %}{% endblock %}>
+ 	<!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  	<![endif]-->
+	<div id="wrapper" class="wrapper">
+		{% block content %}
+		{% endblock %}
+	</div>
+	<!-- Jquery Js -->
+	<script src="dependencies/jquery/js/jquery.min.js"></script>
+	<script src="dependencies/slick-carousel/js/slick.min.js"></script>
+	{% block footer %}{% endblock %}
+	<!-- Site Scripts -->
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>

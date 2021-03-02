@@ -1,0 +1,64 @@
+/*------------------- 3.1 Global -------------------*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrapper {
+    overflow: hidden;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+a:active,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: $color_body;
+    outline: 0 none;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button:active,
+button:hover,
+button:focus,
+input:focus {
+    outline: 0 none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+span {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+

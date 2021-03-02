@@ -1,0 +1,47 @@
+{
+  "name": "Esell",
+  "description": "E-commerce Template",
+  "main": "index.js",
+  "authors": [
+    "Axilweb Ltd"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "classified",
+    "directory"
+  ],
+  "homepage": "https://axilweb.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "overrides": {
+    "slick-carousel": {
+      "main": [
+        "slick/slick.min.js",
+        "slick/slick.css",
+        "slick/slick-theme.css"
+      ],
+      "normalize": {
+        "js": "*.js",
+        "css": "*.css"
+      }
+    },
+    "jquery": {
+      "main": [
+        "dist/jquery.min.js"
+      ],
+      "normalize": {
+        "js": "*.js"
+      }
+    }
+  }
+}

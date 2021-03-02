@@ -1,0 +1,44 @@
+/*------------------- 3.4 Helper -------------------*/
+section.section {
+	padding: 80px 0;
+	@media only screen and (max-width: 991px) {
+		padding: 60px 0;
+	}
+	.section-heading {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		margin-bottom: 60px;
+		@media only screen and (max-width: 479px) {
+			display: block;	
+		}
+		.heading-subtitle {
+			margin-bottom: 10px;
+		}
+		.heading-title {
+			margin-bottom: 0;
+		}
+		.heading-right {
+			@media only screen and (max-width: 479px) {
+				margin-top: 20px;	
+			}
+		}
+	}
+}
+
+hr {
+	border: 1px solid #f6f7fb;
+}
+
+.pd-clr-spicy {
+	background-color: #906145;
+}
+.pd-clr-lavender-pink {
+	background-color: #FAB8C4;
+}
+.pd-clr-brandy {
+	background-color: #DFBF9B;
+}
+.pd-clr-dandelion {
+	background-color: #FFDC60;
+}

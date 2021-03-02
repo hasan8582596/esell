@@ -1,0 +1,159 @@
+/*------------------- 4.1 Banner -------------------*/
+.product-banner {
+    .banner-wrap {
+        margin-left: 300px;
+        padding: 30px 0 80px 30px;
+        @media only screen and (max-width: 1369px) {
+            margin-left: 0;
+            padding: 30px 0 60px 0;
+        }
+    }
+
+    .banner-box {
+    	margin-bottom: 20px;
+    	position: relative;
+        border-radius: 24px;
+    	.banner-img {
+            border-radius: 24px;
+    		overflow: hidden;
+            img {
+                width: 100%;
+                border-radius: 24px;
+                transform: scale(1);
+                transition: all 0.3s ease-in-out;
+            }
+        }
+        .banner-content {
+        	position: absolute;
+        	.item-title {
+        		font-size: 48px;
+        		font-weight: 700;
+        		line-height: 1;
+        		color: $color_light;
+        		width: 80%;
+        		margin-bottom: 20px;
+                @media only screen and (max-width: 991px) {
+                    font-size: 40px;   
+                }
+                @media only screen and (max-width: 575px) {
+                    font-size: 36px;   
+                }
+        	}
+        	.item-btn {
+        		font-weight: 500;
+        		color: $color_light;
+        		padding-left: 50px;
+        		position: relative;
+        		&:after {
+        			content: "";
+        			height: 1px;
+        			width: 34px;
+        			background-color: $color_light;
+        			position: absolute;
+        			top: 50%;
+        			left: 0;
+        			transform: translateY(-50%);
+        			transition: all 0.3s ease-in-out;
+        		}
+        		&:hover {
+        			&:after {
+        				width: 100%;
+        			}
+        		}
+        	}
+        }
+        &:hover {
+        	.banner-img {
+				img {
+					transform: scale(1.1);
+				}
+			}
+        }
+    }
+
+    .banner-style-1 {
+    	border-radius: 30px;
+        .banner-img {
+    		border-radius: 30px;
+            img {
+        		border-radius: 30px;
+            }
+        }
+        .banner-content {
+        	top: 40px;
+        	left: 40px;
+            @media only screen and (max-width: 479px) {
+                top: 20px;   
+            }
+        	.item-title {
+        		font-size: 64px;
+        		line-height: 1;
+        		color: $color_title;
+        		width: 70%;
+                @media only screen and (max-width: 991px) {
+                    font-size: 55px;   
+                }
+                @media only screen and (max-width: 767px) {
+                    font-size: 50px;   
+                    width: 95%;
+                }
+                @media only screen and (max-width: 575px) {
+                    font-size: 44px;   
+                }
+                @media only screen and (max-width: 575px) {
+                    font-size: 38px;   
+                }
+        		span {
+        			background-color: #e76458;
+        			color: $color_light;
+        			padding: 6px 4px;
+                    @media only screen and (max-width: 575px) {
+                        padding: 4px;
+                           
+                    }
+        		}
+        	}
+        	.item-btn {
+        		color: $color_primary;
+        		&:after {
+        			background-color: $color_primary;
+        		}
+        	}
+        }
+    } 
+
+    .banner-style-2 {
+        .banner-content {
+        	top: 40px;
+        	left: 40px;
+            @media only screen and (max-width: 991px) {
+                left: 40px;   
+            }
+        }
+    } 
+
+    .banner-style-3 {
+        .banner-content {
+        	bottom: 30px;
+        	left: 40px;
+            @media only screen and (max-width: 991px) {
+                left: 30px;   
+            }
+        }
+    }  
+    .banner-style-4 {
+        .banner-content {
+        	top: 40px;
+        	left: 140px;
+            @media only screen and (max-width: 991px) {
+                left: 30px;   
+            }
+        	.item-title {
+        		width: 90%;
+                @media only screen and (max-width: 991px) {
+                    width: 100%;   
+                }
+        	}
+        }
+    }   
+}

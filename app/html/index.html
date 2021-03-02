@@ -1,0 +1,33 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Esell - Ecommerce HTML Template{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+<!--=====================================-->
+<!--=          Header Menu Start       	=-->
+<!--=====================================-->
+{% include 'header/menu-layout1.html' %}
+<!--=====================================-->
+<!--=      Product Banner Menu Start    =-->
+<!--=====================================-->
+{% include 'section/banner/product-banner.html' %}
+<!--=====================================-->
+<!--=      Product Carousel Start    	=-->
+<!--=====================================-->
+{% include 'section/product/product-layout1.html' %}
+<!--=====================================-->
+<!--=      Cart Offcanvas Start    =-->
+<!--=====================================-->
+{% include 'header/cart-offcanvas.html' %}
+
+{% endblock %}

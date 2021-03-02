@@ -1,0 +1,45 @@
+{
+  "name": "Esell",
+  "version": "1.0.0",
+  "description": "E-commerce Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Axilweb Ltd",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-bower-normalize": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssbeautify": "^1.0.1",
+    "gulp-file-include": "^2.2.2",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-image": "^5.1.0",
+    "gulp-main-bower-files": "^1.7.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  },
+  "browserslist": [
+    "> 2%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ],
+  "dependencies": {
+    "cjs-loader": "^0.1.0",
+    "core-util-is": "^1.0.2",
+    "pngquant-bin": "^6.0.0",
+    "sal.js": "^0.7.8"
+  }
+}
