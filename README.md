@@ -2,7 +2,7 @@ What i use:
 
 ● HTML5
 </br>
-● SCSS/SASS
+● SCSS
 </br>
 ● jQuery
 </br>
